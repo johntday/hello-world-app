@@ -2,9 +2,9 @@ name: Deploy Next.js to Server
 
 on:
   workflow_dispatch:
-  # push:
-  #   branches:
-  #     - main # Runs this workflow on every push to the 'main' branch.
+    push:
+      branches:
+        - main # Runs this workflow on every push to the 'main' branch.
 
 env:
   REGISTRY: ghcr.io
