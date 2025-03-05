@@ -80,7 +80,7 @@ services:
       # Uses the internal Traefik API service to monitor and manage the router.
 
   hello:
-    container_name: hello
+    #container_name: hello
     # Names the container 'hello' for easier identification.
 
     image: ghcr.io/johntday/hello-world-app:main
