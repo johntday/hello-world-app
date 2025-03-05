@@ -68,7 +68,7 @@ jobs:
             echo "Pulling the latest image..."
             docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:main
 
-            cd hello-world-app/
+            cd /home/jday/hello-world-app/
 
             # Create or clear the .env file
             > .env
