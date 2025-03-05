@@ -127,6 +127,10 @@ services:
       - 'traefik.docker.network=proxy'
       # Specifies the Docker network 'proxy' for Traefik to route requests to this container.
 
+    deploy:
+      mode: replicated
+      replicas: 3
+
     restart: always
     # Automatically restarts the container if it crashes or stops.
 
